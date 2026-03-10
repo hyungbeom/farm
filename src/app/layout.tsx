@@ -14,7 +14,7 @@ const websiteJsonLd = {
   "@context": "https://schema.org" as const,
   "@type": "WebSite" as const,
   name: "한국후계 농업경영인 전국대회",
-  url: `${SITE_URL}/`,
+  url: SITE_URL,
   alternateName: ["20kaffnc.co.kr", "www.20kaffnc.co.kr", "제20회 한국후계 농업경영인 전국대회"],
 };
 
