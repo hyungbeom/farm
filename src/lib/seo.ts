@@ -122,7 +122,7 @@ export function getRootMetadata(): Metadata {
     verification: {
       google: "sLCH6Jlcv2Zkgxdxb1JKAzwQeszNKK9z8DhUZBvakGg",
       other: {
-        "naver-site-verification": "e4d6d7a9edae9170d6332eb57a46ddd1facb9e68",
+        "naver-site-verification": "e91dcbb116242b33cc190c675f9f48c4cc0acd84",
       },
     },
     robots: { index: true, follow: true },
