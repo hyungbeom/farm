@@ -6,16 +6,18 @@ import type { Metadata } from "next";
  */
 export const SITE_URL = "https://www.20kaffnc.co.kr";
 
+const MAIN_TITLE = "제20회 한국후계 농업경영인 전국대회 | 제주 행사 일정 및 안내";
+
 export const defaultSeo = {
-  title: "한국후계 농업경영인 전국대회",
-  titleTemplate: "%s | 한국후계 농업경영인 전국대회",
-  defaultTitle: "한국후계 농업경영인 전국대회",
+  title: MAIN_TITLE,
+  titleTemplate: "%s | 제주 행사 일정 및 안내",
+  defaultTitle: MAIN_TITLE,
   description:
     "대한민국 농업을 이끌어가는 한국후계 농업경영인들의 권익 대변과 발전을 위한 국내 최대 농민 단체 행사입니다. 제20회 한국후계 농업경영인 전국대회 일정 및 안내를 확인하세요.",
   canonical: SITE_URL,
   openGraph: {
-    title: "한국후계 농업경영인 전국대회가 시작됩니다.",
-    siteName: "한국후계 농업경영인 전국대회",
+    title: MAIN_TITLE,
+    siteName: "제20회 한국후계 농업경영인 전국대회",
     description:
       "대한민국 농업을 이끌어가는 한국후계 농업경영인들의 권익 대변과 발전을 위한 국내 최대 농민 단체 행사입니다. 제20회 한국후계 농업경영인 전국대회 일정 및 안내를 확인하세요.",
     type: "website" as const,
@@ -32,7 +34,7 @@ export const defaultSeo = {
   },
   twitter: {
     card: "summary_large_image" as const,
-    title: "한국후계 농업경영인 전국대회가 시작됩니다.",
+    title: MAIN_TITLE,
     description:
       "대한민국 농업을 이끌어가는 한국후계 농업경영인들의 권익 대변과 발전을 위한 국내 최대 농민 단체 행사입니다.",
     images: ["/opimage.png"],
@@ -41,6 +43,7 @@ export const defaultSeo = {
     "한국후계 농업경영인",
     "농업경영인 전국대회",
     "제20회",
+    "2026",
     "농경인",
     "한국후계",
     "농업경영인",
