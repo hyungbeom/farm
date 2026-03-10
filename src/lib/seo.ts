@@ -14,14 +14,14 @@ export const defaultSeo = {
   defaultTitle: MAIN_TITLE,
   description:
     "대한민국 농업을 이끌어가는 한국후계 농업경영인들의 권익 대변과 발전을 위한 국내 최대 농민 단체 행사입니다. 제20회 한국후계 농업경영인 전국대회 일정 및 안내를 확인하세요.",
-  canonical: SITE_URL,
+  canonical: `${SITE_URL}/`,
   openGraph: {
     title: MAIN_TITLE,
     siteName: "제20회 한국후계 농업경영인 전국대회",
     description:
       "대한민국 농업을 이끌어가는 한국후계 농업경영인들의 권익 대변과 발전을 위한 국내 최대 농민 단체 행사입니다. 제20회 한국후계 농업경영인 전국대회 일정 및 안내를 확인하세요.",
     type: "website" as const,
-    url: SITE_URL,
+    url: `${SITE_URL}/`,
     locale: "ko_KR",
     images: [
       {
@@ -78,7 +78,7 @@ export function buildMetadata(options: PageSeoOptions = {}): Metadata {
     openGraph: pageOg,
   } = options;
 
-  const url = path ? `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}` : SITE_URL;
+  const url = path ? `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}` : `${SITE_URL}/`;
   const resolvedTitle = title ?? defaultSeo.defaultTitle;
   const resolvedDescription = description ?? defaultSeo.description;
 

@@ -14,7 +14,7 @@ const websiteJsonLd = {
   "@context": "https://schema.org" as const,
   "@type": "WebSite" as const,
   name: "한국후계 농업경영인 전국대회",
-  url: SITE_URL,
+  url: `${SITE_URL}/`,
   alternateName: ["20kaffnc.co.kr", "www.20kaffnc.co.kr", "제20회 한국후계 농업경영인 전국대회"],
 };
 
@@ -22,7 +22,7 @@ const organizationJsonLd = {
   "@context": "https://schema.org" as const,
   "@type": "Organization" as const,
   name: "한국후계 농업경영인 전국대회",
-  url: SITE_URL,
+  url: `${SITE_URL}/`,
   description:
     "대한민국 농업을 이끌어가는 한국후계 농업경영인들의 권익 대변과 발전을 위한 국내 최대 농민 단체 행사입니다.",
   image: `${SITE_URL}/opimage.png`,
