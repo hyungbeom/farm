@@ -36,6 +36,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <meta name="robots" content="index, follow" />
         <JsonLdScript data={websiteJsonLd} scriptKey="website" />
         <JsonLdScript data={organizationJsonLd} scriptKey="organization" />
       </head>

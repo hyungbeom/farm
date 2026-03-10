@@ -102,9 +102,9 @@ export function buildMetadata(options: PageSeoOptions = {}): Metadata {
       description: pageOg?.description ?? resolvedDescription,
       images: pageOg?.images?.map((i) => i.url) ?? defaultSeo.twitter.images,
     },
-    ...(noIndex && {
-      robots: { index: false, follow: false },
-    }),
+    robots: noIndex
+      ? { index: false, follow: false }
+      : { index: true, follow: true },
   };
 }
 
