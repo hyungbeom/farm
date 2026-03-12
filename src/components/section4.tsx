@@ -24,7 +24,7 @@ export default function Section4() {
             { id: 2, title: '행사장 입장료가 있나요?', date: '2026.02.04' },
             { id: 3, title: '주차장은 마련되어 있나요? 주차 요금은 얼마인가요?', date: '2026.02.03' },
             { id: 4, title: '대중교통을 이용해서 갈 수 있나요?', date: '2026.02.02' },
-            { id: 5, title: '체험 프로그램은 사전에 예약해야 하나요? 참가비가 있나요?', date: '2026.02.03' },
+            { id: 5, title: '체험 프로그램은 사전에 예약해야 하나요?', date: '2026.02.03' },
             { id: 6, title: '부스 체험 프로그램 운영 시간은 언제인가요?', date: '2026.02.02' },
         ]
     };
@@ -99,7 +99,7 @@ export default function Section4() {
                                 <div style={{
                                     flex: 1,
                                     minWidth: 0,
-                                    fontSize: 16,
+                                    fontSize: isMobile ? 11 : 16,
                                     color: '#333',
                                     whiteSpace: 'nowrap',
                                     overflow: 'hidden',
@@ -108,7 +108,7 @@ export default function Section4() {
                                 }}>
                                     {item.title}
                                 </div>
-                                <div style={{ fontSize: 15, color: '#999', flexShrink: 0 }}>
+                                <div style={{ fontSize: isMobile ? 10 : 15, color: '#999', flexShrink: 0 }}>
                                     {item.date}
                                 </div>
                             </div>
