@@ -231,7 +231,7 @@ export default function Section3() {
                                                 </div>
                                                 <div style={{ color: textColor, fontSize: 24, fontWeight: 600, lineHeight: 1.4 }}>
                                                     <div>13:00~</div>
-                                                    <div>17:00</div>
+                                                    <div>18:00</div>
                                                 </div>
                                             </div>
                                             <div style={{ flex: 1, display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2, minmax(0, 1fr))' : 'repeat(4, minmax(0, 1fr))', gap: isMobile ? 15 : 20 }}>

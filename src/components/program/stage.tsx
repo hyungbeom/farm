@@ -95,7 +95,7 @@ export default function Stage() {
                             {isMobile ? (
                                 <>
                                     <div style={{ fontSize: 24, fontWeight: 800, color: yellowColor }}>2일차</div>
-                                    <div style={{ color: textColor, fontSize: 16, fontWeight: 600 }}>13:00~17:00</div>
+                                    <div style={{ color: textColor, fontSize: 16, fontWeight: 600 }}>13:00~18:00</div>
                                     <div style={{ flex: 1, minWidth: 20, height: 1, backgroundColor: 'rgba(255,255,255,0.5)' }} />
                                 </>
                             ) : (
@@ -106,7 +106,7 @@ export default function Stage() {
                                     </div>
                                     <div style={{ color: textColor, fontSize: 24, fontWeight: 600, lineHeight: 1.4 }}>
                                         <div>13:00~</div>
-                                        <div>17:00</div>
+                                        <div>18:00</div>
                                     </div>
                                 </>
                             )}
