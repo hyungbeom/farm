@@ -45,7 +45,7 @@ export default function Header({ back = true }: { back?: boolean }) {
     {
       title: "게시판",
       subMenus: [
-        { name: "공지사항", path: "/board/notice" },
+        // { name: "공지사항", path: "/board/notice" },
         { name: "자주하는 질문", path: "/board/faq" },
         { name: "Q&A", path: "/board/qna" },
       ],

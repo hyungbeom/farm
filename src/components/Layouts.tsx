@@ -28,7 +28,7 @@ export default function Layouts({ children }: { children: React.ReactNode }) {
       "/location/layout": "행사장 배치도",
       "/location/parking": "주차 안내",
       "/location/transport": "대중교통 안내",
-      "/board/notice": "게시판",
+      // "/board/notice": "공지사항",
       "/board/faq": "자주하는 질문",
       "/board/qna": "Q&A",
     };
