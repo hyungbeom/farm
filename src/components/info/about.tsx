@@ -158,7 +158,7 @@ export default function About() {
                             fontWeight : 900
                         }}>
                             <div style={{ fontSize: isMobile ? 15 : 16,  color: darkText, lineHeight: 1.6, wordBreak: 'keep-all', zIndex: 1 }}>
-                                한국농촌지도자중앙연합회 등과 함께 한국 농업계를 대표하는 단체로서, 정부의 농정 파트너이자 농업 현장의 목소리를 가장 강력하게 전달하는 스피커 역할을 하고 있습니다.
+                                한국 농업계를 대표하는 단체로서, 정부의 농정 파트너이자 농업 현장의 목소리를 가장 강력하게 전달하는 스피커 역할을 하고 있습니다.
                             </div>
                             <div style={{ position: 'absolute', right: 20, bottom: -10, opacity: 0.05, fontSize: 100, zIndex: 0 }}>🌍</div>
                         </div>

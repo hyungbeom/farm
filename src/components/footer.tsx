@@ -52,9 +52,10 @@ export default function Footer({ color = "ffffff" }: { color?: string | null }) 
                   borderRadius: 50,
                   padding: "20px 60px",
                   display: "flex",
-                  flexWrap: "wrap",
+                  flexWrap: "nowrap",
+                  alignItems: "center",
                   justifyContent: "center",
-                  gap: 30,
+                  gap: 0,
                   fontSize: 16,
                   fontWeight: 500,
                   color: "#555",
@@ -68,39 +69,47 @@ export default function Footer({ color = "ffffff" }: { color?: string | null }) 
                     color: "#333",
                     cursor: "pointer",
                     textDecoration: "none",
+                    padding: "0 15px",
+                    lineHeight: 1.5,
                   }}
                 >
                   행사안내
                 </Link>
-                <div>·</div>
+                <span style={{ width: 6, textAlign: "center", flexShrink: 0, color: "#999" }}>·</span>
                 <Link
                   href="/program/opening"
                   style={{
                     cursor: "pointer",
                     textDecoration: "none",
                     color: "inherit",
+                    padding: "0 15px",
+                    lineHeight: 1.5,
                   }}
                 >
                   프로그램 안내
                 </Link>
-                <div>·</div>
+                <span style={{ width: 6, textAlign: "center", flexShrink: 0, color: "#999" }}>·</span>
                 <Link
                   href="/location/map"
                   style={{
                     cursor: "pointer",
                     textDecoration: "none",
                     color: "inherit",
+                    padding: "0 15px",
+                    lineHeight: 1.5,
                   }}
                 >
                   오시는길
                 </Link>
-                <div>·</div>
+                <span style={{ width: 6, textAlign: "center", flexShrink: 0, color: "#999" }}>·</span>
                 <Link
                   href="/board/notice"
                   style={{
                     cursor: "pointer",
                     textDecoration: "none",
                     color: "inherit",
+                    padding: "0 15px",
+                    lineHeight: 1.5,
                   }}
                 >
                   게시판
