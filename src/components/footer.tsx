@@ -161,8 +161,7 @@ export default function Footer({ color = "ffffff" }: { color?: string | null }) 
               }}
             >
               <div>
-                (630) 제주특별자치도 제주시 새별오름 일원 | 전화 064 . 987 .
-                6543
+                (630) 제주특별자치도 제주시 새별오름 일원 | 전화 070-4814-0634
               </div>
               <div>
                 Copyright © 2026 Korea Advanced Farmers Federation. All Rights
@@ -267,7 +266,7 @@ export default function Footer({ color = "ffffff" }: { color?: string | null }) 
               (630) 제주특별자치도 제주시 새별오름 일원
             </div>
             <div style={{ fontSize: 16, fontWeight: 400, marginBottom: 20 }}>
-              전화 064 . 987 . 6543
+              전화 070-4814-0634
             </div>
             <div
               style={{

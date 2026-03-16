@@ -76,7 +76,7 @@ export default function About() {
                             />
                             <BulletItem
                                 title="조직:"
-                                desc="중앙연합회를 중심으로 도 연합회, 시·군·구 연합회, 읍·면·동 회까지 체계적인 전국 조직망을 갖추고 있습니다."
+                                desc="중앙연합회를 중심으로 시·도 연합회, 시·군·구 연합회, 읍·면·동 회까지 체계적인 전국 조직망을 갖추고 있습니다."
                             />
                             <div style={{ position: 'absolute', right: 20, bottom: -10, opacity: 0.05, fontSize: 100 }}>👤</div>
                         </div>
