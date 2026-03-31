@@ -109,6 +109,7 @@ export default function Side() {
                     img: '/program/side6.png'
                 },
                 {title: '캐리커쳐 체험', desc: '전문캐리커쳐강사가 그려주는 나만의 캐리커쳐 초상화', time: '5분', img: '/program/side7.png'},
+                {title: '제주적십자사', desc: '모루인형 만들기 (손주 선물용) \n 성인·소아 CPR 및 펫 CPR', time: '5분', img: '/program/side15.png'},
             ]
         },
         '체육대회': {
